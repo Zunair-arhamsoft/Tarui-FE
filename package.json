@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "start": "tauri dev",
-    "dev": "vite",
-    "build": "vite build",
+    "start": "node init && tauri dev",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "tauri": "tauri"
   },
